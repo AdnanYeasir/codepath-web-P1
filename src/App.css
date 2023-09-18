@@ -1,0 +1,78 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+
+ body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh; 
+}
+
+th {
+  width: 120px;
+  padding-top:25px;
+  padding-bottom:30px;
+}
+
+td {
+  padding: 5px;
+}
+
+.time {
+  height: 40px;
+}
+
+.Eventgreen {
+  background-color: green;
+}
+
+
+.Eventpink {
+  background-color: pink;
+}
+
+
+.Eventblue {
+  background-color: blue;
+}
+
+.post-container {
+  display: flex; /* Use flex display for the container */
+  flex-wrap: wrap; /* Wrap the items if they exceed the container width */
+  justify-content: space-between; /* Adjust the alignment as needed */
+  /* Add any other flex properties or styling as needed */
+}
+
+/* App.css */
+.post-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -10px; /* Add negative margin to counteract the margin on individual Posts */
+}
+
+.Post {
+  width: calc(33.33% - 20px); /* Adjust the width to fit three components in a row */
+}
+
+.head-font{
+  color: black;
+  font-weight:bold;
+}

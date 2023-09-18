@@ -1,0 +1,52 @@
+/* Post.css */
+.Post {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  width: calc(25% - 10px);
+}
+
+.image-container {
+  margin: 10px 0;
+}
+
+.image-container img {
+  max-width: 100%; /* Ensure the image fits within its container */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.country {
+  font-size: 16px;
+  color: #666;
+}
+
+.viewSite {
+  margin-top: 10px; /* Add some space below the name */
+  text-decoration: none;
+  color: #007bff;
+  display: inline-block;
+}
+
+.viewSite:hover {
+  text-decoration: underline; /* Underline the link on hover */
+}
+
+/* Post.css */
+.name {
+  font-size: 16px; /* Adjust the font size */
+}
+
+.country {
+  font-size: 14px; /* Adjust the font size */
+}
+
+.viewSite {
+  font-size: 12px; /* Adjust the font size */
+}
